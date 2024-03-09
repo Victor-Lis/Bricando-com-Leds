@@ -13,16 +13,12 @@ void setup() {
 }
 
 void all(){
-
    digitalWrite(led1, HIGH);  
    digitalWrite(led2, HIGH);
    digitalWrite(led3, HIGH);
+}
 
-   analogWrite(led1, 255);  
-   analogWrite(led2, 255);
-   analogWrite(led3, 255);
-  
-}void padrao1(){
+void padrao1(){
     digitalWrite(led1, HIGH);  
     digitalWrite(led2, LOW);
     digitalWrite(led3, LOW);
