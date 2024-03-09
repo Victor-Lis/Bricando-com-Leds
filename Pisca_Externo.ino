@@ -22,6 +22,19 @@ void all(){
    analogWrite(led2, 255);
    analogWrite(led3, 255);
   
+}void padrao1(){
+    digitalWrite(led1, HIGH);  
+    digitalWrite(led2, LOW);
+    digitalWrite(led3, LOW);
+  delay(tempo);           
+    digitalWrite(led1, LOW);
+    digitalWrite(led2, HIGH);
+    digitalWrite(led3, LOW);   
+  delay(tempo);   
+    digitalWrite(led1, LOW);
+    digitalWrite(led2, LOW);
+    digitalWrite(led3, HIGH);                       
+  delay(tempo);  
 }
 
 // the loop function runs over and over again forever
